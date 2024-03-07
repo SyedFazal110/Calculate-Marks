@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate your Marks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-grey center">
+
+    <h1>Calculate your Marks</h1>
+
+    <div>
+
+        <input class="inputEng rounded mt-4" type="number" placeholder="English"><br><br>
+        <input class="inputPhy rounded mt-4" type="number" placeholder="Physics"><br><br>
+        <input class="inputChe rounded mt-4" type="number" placeholder="Chemistry"><br><br>
+        <input class="inputMat rounded mt-4" type="number" placeholder="Maths"><br><br>
+        
+        <button class="rounded bg-yellow" onclick="getInputValue()">Click Here</button>
+        
+        <h1>TotalMarks: <span id="total-marks">0</span></h1>
+        <h1>Percantage: <span id="percentage">0</span>%</h1>
+        <h1>Grade: <span id="grade">0</span></h1>
+        
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>

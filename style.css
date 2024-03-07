@@ -1,0 +1,28 @@
+.bg-grey{
+    background-color: grey;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+.center{
+    text-align: center;
+}
+
+.rounded{
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.mt-1{
+    margin-top: 5px;
+}
+.mt-2{
+    margin-top: 10px;
+}
+.mt-3{
+    margin-top: 15px;
+}
+.mt-4{
+    margin-top: 20px;
+}
